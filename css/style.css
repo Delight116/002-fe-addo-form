@@ -1,0 +1,79 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.other_log span {
+    display: block;
+    margin: 40px 0 20px 0;
+}
+
+.other_log {
+    text-align: center;
+}
+
+.title {
+    padding: 25px;
+    background: #eee;
+    margin-bottom: 35px;
+}
+
+.title h3{
+  margin-top: 0;
+}
+
+form.sing_in input, form.sing_up input {
+    display: block;
+    width: calc(100% - 50px);
+    margin: 15px auto;
+    position: relative;
+    padding: 10px 20px;
+}
+
+form.sing_in textarea, form.sing_up textarea{
+    display: block;
+    width: calc(100% - 50px);
+    margin: 15px auto;
+    position: relative;
+    padding: 10px 20px;
+}
+
+form.sing_in, form.sing_up {
+    width: 100%;
+    /* position: absolute; */
+    background: #ddd;
+    padding-bottom: 25px;
+}
+
+.block {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 465px;
+    margin: auto;
+}
+.log .block{
+  height: 465px;
+}
+
+.sing .block{
+  height: 530px;
+}
+.c__block {
+    display: block;
+    width: 50%;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+}
+
+.c__block.log{
+  min-height: 465px;
+}
+.c__block.sing{
+  min-height: 530px;
+}
